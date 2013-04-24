@@ -1,5 +1,4 @@
 import cgi, threading
-from core import webcrawl_class
 from pymongo import Connection
 
 connection1=Connection()    #making a connection
