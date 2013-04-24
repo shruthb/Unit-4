@@ -26,7 +26,7 @@ res = newcollection.find_one({'url': url})
 if not res :
    print "<h2>We haven't crawled ",url,"yet!</h2>"
    print "<div> Please get back later </div>"
-   mon.needtocrawl(url)
+   #mon.needtocrawl(url)
    
 else :
    print 'result!!!!!'
