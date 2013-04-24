@@ -1,0 +1,34 @@
+<? xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 STRICT//EN"
+            "http://www.w3.org/TR/xhtml1/xhtml-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Python Http Server</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+form
+{
+  //border: 1px dotted blue;
+	//width:250px;
+}
+a#helpurl:hover + div
+{
+	display:inline;
+}
+a + div
+{
+	display:none;
+}
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<h2>Mobile compliant web!</h2>
+<form action="/cgi-bin/querys.py" method="post">
+<label>URL : <input type="text" id="url" name="url"></label>
+<a href="#" id="helpurl">?</a><div>Enter url name here</div>
+<br/><input type="submit" id="sub">
+</form>
+</body>
+</html>
